@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(80, 80, 80);
+}
+
+h1{
+    color: rgb(32, 32, 61);
+    position: relative;
+    text-align: center;
+    padding-top:1rem;
+    font-size: 64px;
+}
+
+.aboutme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: rgb(49, 49, 49);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.blogEntry{
+    padding-top: 2rem;
+}
+
+a, .menu{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+
+}
+
+a:hover, .menu:hover{
+    color:antiquewhite ;
+}
+
+a:visited, .menu:visited{
+    color: #b4870b;
+}
+
+
+#post {
+    border: none;
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color:#0f0a5a;
+    color: #ffffff;
+}
+
+#unordered{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: none;
+    border: white;
+    text-align: justify;
+    padding-left: 3rem;
+    list-style: none;
+    display
+
+}
